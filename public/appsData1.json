@@ -1,14 +1,14 @@
 [
   {
     "image": "https://i.ibb.co.com/3YcMQkNp/whatsApp.jpg",
-    "title": "WhatsApp Messenger",
+    "title": "WhatsApp ",
     "companyName": "Meta Platforms Inc.",
     "id": 1,
     "description": "Simple, reliable messaging and calling for free, available on phones worldwide.",
     "size": 54,
     "reviews": 120000000,
     "ratingAvg": 4.3,
-    "downloads": 5000000000,
+    "downloads": "50K",
     "ratings": [
       { "name": "1 star", "count": 3000000 },
       { "name": "2 star", "count": 1500000 },
@@ -26,7 +26,7 @@
     "size": 68,
     "reviews": 115000000,
     "ratingAvg": 4.1,
-    "downloads": 5000000000,
+    "downloads": "5.5K",
     "ratings": [
       { "name": "1 star", "count": 6000000 },
       { "name": "2 star", "count": 2000000 },
@@ -44,7 +44,7 @@
     "size": 40,
     "reviews": 110000000,
     "ratingAvg": 4.5,
-    "downloads": 5000000000,
+    "downloads": "8K",
     "ratings": [
       { "name": "1 star", "count": 4000000 },
       { "name": "2 star", "count": 2000000 },
@@ -62,7 +62,7 @@
     "size": 95,
     "reviews": 142000000,
     "ratingAvg": 4.6,
-    "downloads": 10000000000,
+    "downloads": "6M",
     "ratings": [
       { "name": "1 star", "count": 5000000 },
       { "name": "2 star", "count": 2500000 },
@@ -80,7 +80,7 @@
     "size": 78,
     "reviews": 92000000,
     "ratingAvg": 4.4,
-    "downloads": 5000000000,
+    "downloads": "4.5K",
     "ratings": [
       { "name": "1 star", "count": 4000000 },
       { "name": "2 star", "count": 2500000 },
@@ -98,7 +98,7 @@
     "size": 35,
     "reviews": 94000000,
     "ratingAvg": 4.5,
-    "downloads": 10000000000,
+    "downloads": "3.2K",
     "ratings": [
       { "name": "1 star", "count": 3000000 },
       { "name": "2 star", "count": 1500000 },
@@ -116,7 +116,7 @@
     "size": 60,
     "reviews": 98000000,
     "ratingAvg": 4.7,
-    "downloads": 10000000000,
+    "downloads": "6.7K",
     "ratings": [
       { "name": "1 star", "count": 2000000 },
       { "name": "2 star", "count": 1000000 },
@@ -134,7 +134,7 @@
     "size": 52,
     "reviews": 64000000,
     "ratingAvg": 4.2,
-    "downloads": 1000000000,
+    "downloads": "4.6K",
     "ratings": [
       { "name": "1 star", "count": 3000000 },
       { "name": "2 star", "count": 2000000 },
@@ -152,7 +152,7 @@
     "size": 42,
     "reviews": 88000000,
     "ratingAvg": 4.0,
-    "downloads": 1000000000,
+    "downloads": "5.7K",
     "ratings": [
       { "name": "1 star", "count": 8000000 },
       { "name": "2 star", "count": 3000000 },

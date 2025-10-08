@@ -5,19 +5,19 @@ import ratingImg from "../../assets/icon-ratings.png";
 const App1 = ({ app }) => {
   return (
     <div>
-      <div className="card bg-gray-200 w-[200px] shadow-sm p-1 m-2 h-[300px] ">
-        <figure>
-          <img src={app.image} alt="Apps" />
+      <div className="card bg-green-100 w-[270px]  m-5 h-[300px] ">
+        <figure className="">
+          <img src={app.image} className="h-full w-[180px]" alt="Apps" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{app.title}</h2>
 
-          <div className="flex justify-around">
-            <button className="btn bg-gray-200">
+          <div className="buttonGroup flex gap-4 justify-around px-0">
+            <button className="btn bg-gray-200 w-[60px] px-4">
               <img src={downloadImg} className="h-[20px] w-[20px]" alt="" />
               {app.downloads}
             </button>
-            <button className="btn bg-purple-200">
+            <button className="btn bg-purple-200 px-4">
               <img src={ratingImg} className="h-[20px] w-[20px]" alt="" />
               {app.ratingAvg}
             </button>
