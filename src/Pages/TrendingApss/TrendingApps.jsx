@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import App1 from "../App1/App1";
+import { Link } from "react-router";
 
 const TrendingApps = () => {
   const [apps, setApps] = useState([]);
@@ -23,11 +24,13 @@ const TrendingApps = () => {
         ))}
       </div>
       {/* button div */}
-      <div className="mt-6 flex justify-center items-center">
-        <button className="px-12 w-[300px] mx-auto btn btn-primary bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
-          Show All
-        </button>
-      </div>
+      <Link to={"/apps"}>
+        <div className="mt-6 flex justify-center items-center">
+          <button className="px-12 w-[300px] mx-auto btn btn-primary bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+            Show All
+          </button>
+        </div>
+      </Link>
     </div>
   );
 };
