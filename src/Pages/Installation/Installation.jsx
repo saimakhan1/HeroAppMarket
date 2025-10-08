@@ -1,4 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router";
+import gPlay from "../../assets/gplay.jpg";
+import sPlay from "../../assets/appstorelogo.jpg";
 
 const Installation = () => {
   return (
@@ -12,6 +15,23 @@ const Installation = () => {
         simpler, smarter, and more exciting.<br></br>Our goal is to turn your
         ideas into digital experiences that truly make an impact.{" "}
       </p>
+      <div
+        className=" flex text-center justify-center my-4 gap-5
+      "
+      >
+        <NavLink to={"https://play.google.com/store/games?hl=en"}>
+          <button className="btn">
+            <img src={gPlay} className="h=[20px] w-[20px]" alt="" />
+            Google Play
+          </button>
+        </NavLink>
+        <NavLink to={"https://www.apple.com/app-store/"}>
+          <button className="btn">
+            <img src={sPlay} className="h-[20px] w-[20px]" alt="" />
+            App Store
+          </button>
+        </NavLink>
+      </div>
     </div>
   );
 };
