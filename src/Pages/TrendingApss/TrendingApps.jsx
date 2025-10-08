@@ -17,7 +17,7 @@ const TrendingApps = () => {
       <p className="text-gray-600 mb-4">
         Explore All Trending Apps on the Market developed by us
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {apps.slice(0, 8).map((app) => (
           <App1 app={app}></App1>
         ))}

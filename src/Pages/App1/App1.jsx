@@ -14,11 +14,11 @@ const App1 = ({ app }) => {
       </div>
       <div className="cardTitle mb-3">{app.title}</div>
       <div className="cartButtons flex justify-around">
-        <button className="btn bg-green-100">
+        <button className="btn bg-[#F1F5E8] text-green-400">
           <img className="h-[20px]" src={downloadImg} alt="" />
           {app.downloads}
         </button>
-        <button className="btn bg-purple-100">
+        <button className="btn text-[#FF8811] bg-[#F1F5E8]">
           <img className="h-[20px]" src={ratingImg} alt="" />
           {app.ratingAvg}
         </button>
