@@ -28,20 +28,6 @@ export const router = createBrowserRouter([
         path: "/apps",
         Component: Apps,
       },
-      //   {
-      //     path: "/about",
-      //     Component: About,
-      //   },
-      //   {
-      //     path: "/readList",
-      //     loader: () => fetch("booksData.json"),
-      //     Component: ReadList,
-      //   },
-      //   {
-      //     path: "/bookDetails/:id",
-      //     loader: () => fetch("booksData.json"),
-      //     Component: BookDetails,
-      //   },
     ],
   },
 ]);
