@@ -24,32 +24,6 @@ const App1 = ({ app }) => {
         </button>
       </div>
     </div>
-    // <div>
-    //   <div className="card bg-green-100 w-[270px]  m-5 h-[300px] ">
-    //     <figure className="">
-    //       <img src={app.image} className="h-full w-[180px]" alt="Apps" />
-    //     </figure>
-    //     <div className="card-body">
-    //       <h2 className="card-title">{app.title}</h2>
-
-    //       <div className="buttonGroup flex gap-4 justify-around px-0">
-    //         <button className="btn bg-gray-200 w-[60px] px-4">
-    //           <img src={downloadImg} className="h-[20px] w-[20px]" alt="" />
-    //           {app.downloads}
-    //         </button>
-    //         <button className="btn bg-purple-200 px-4">
-    //           <img src={ratingImg} className="h-[20px] w-[20px]" alt="" />
-    //           {app.ratingAvg}
-    //         </button>
-    //       </div>
-    //     </div>
-    //   </div>
-    //   {/* <div key={app.id}>
-    //     <h3>{app.title}</h3>
-    //     <p>{app.companyName}</p>
-    //     <p>{app.description}</p>
-    //   </div> */}
-    // </div>
   );
 };
 
