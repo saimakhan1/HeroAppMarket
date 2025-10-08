@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.c2 {
+  background-color: lightgrey;
+}

@@ -5,10 +5,10 @@ const Trust = () => {
   return (
     <div>
       <div className="bg-[#9F62F2] text-white py-14 ">
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-3xl font-bold mb-10">
           Trusted by Millions, Built for You
         </h1>
-        <div className="mx-auto p-7 flex gap-14 justify-center ">
+        <div className="mx-auto p-7 flex gap-14 justify-around ">
           <div className="sec1">
             <p className="mb-3">Total Downloads</p>
             <h1 className="text-4xl font-bold">29.6M</h1>

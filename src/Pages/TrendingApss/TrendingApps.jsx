@@ -12,10 +12,13 @@ const TrendingApps = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
       {apps.slice(0, 8).map((app) => (
         <App1 app={app}></App1>
       ))}
+      <div className="text-center">
+        <button className="btn btn-primary">Show All </button>
+      </div>
     </div>
   );
 };

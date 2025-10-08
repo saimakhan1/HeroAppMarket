@@ -6,8 +6,8 @@ import Banner from "../../Components/Banner/Banner";
 
 const Home = () => {
   return (
-    <div>
-      <div className="mx-auto my-5">
+    <div className="c2 py-3">
+      <div className="mx-auto my-5 ">
         <h1 className="text-2xl font-bold">
           We Build <br></br>
           <span className="text-[#9F62F2] font-bold">Productive</span> Apps

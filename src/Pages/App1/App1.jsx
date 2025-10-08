@@ -4,18 +4,22 @@ import ratingImg from "../../assets/icon-ratings.png";
 
 const App1 = ({ app }) => {
   return (
-    <div className="card1 w-[270px] h-[280px] text-center bg-green-100 m-3 p-3">
-      <div className="cardImage1">
-        <img src={app.image} className="h-[200px] w-[200px] mx-auto" alt="" />
+    <div className="card1 w-[270px] h-[300px] text-center bg-blue-100 m-3 p-3 rounded-lg shadow-lg">
+      <div className="cardImage1 mb-3">
+        <img
+          src={app.image}
+          className="rounded-2xl h-[180px] w-[210px] mx-auto"
+          alt=""
+        />
       </div>
-      <div className="cardTitle">{app.title}</div>
+      <div className="cardTitle mb-3">{app.title}</div>
       <div className="cartButtons flex justify-around">
-        <button>
-          <img src={downloadImg} alt="" />
+        <button className="btn bg-green-100">
+          <img className="h-[20px]" src={downloadImg} alt="" />
           {app.downloads}
         </button>
-        <button>
-          <img src={ratingImg} alt="" />
+        <button className="btn bg-purple-100">
+          <img className="h-[20px]" src={ratingImg} alt="" />
           {app.ratingAvg}
         </button>
       </div>
