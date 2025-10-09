@@ -1,7 +1,7 @@
 import { FaGithub } from "react-icons/fa6";
 
 import logoImage from "../../assets/logo.png";
-import { Link, NavLink } from "react-router";
+import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
