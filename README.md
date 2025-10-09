@@ -9,7 +9,7 @@
 - Browse popular and trending apps
 - View detailed app information (ratings, reviews, downloads, size)
 - Manage installed apps with uninstall functionality
-- Sort apps by downloads or ratings
+- Sort apps by downloads 
 - User-friendly interface with responsive design
 - Toast notifications for actions like uninstall
 
@@ -17,7 +17,7 @@
 
 - **Frontend:** React.js, Tailwind CSS, DaisyUI
 - **State Management:** React Hooks (useState, useEffect)
-- **Routing:** React Router DOM
+- **Routing:** React Router 
 - **Notifications:** React Toastify
 - **Data Storage:** LocalStorage
 - **Icons & Images:** Local assets & external image URLs
