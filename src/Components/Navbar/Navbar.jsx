@@ -2,6 +2,10 @@ import { FaGithub } from "react-icons/fa6";
 
 import logoImage from "../../assets/logo.png";
 import { Link, NavLink } from "react-router-dom";
+import { FaHome } from "react-icons/fa";
+import { FaAppStore } from "react-icons/fa";
+import { MdInstallDesktop } from "react-icons/md";
+
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -38,7 +42,7 @@ const Navbar = () => {
                     : "border-b-2 border-transparent hover:text-[#9F62F2] hover:border-[#9F62F2] transition duration-200"
                 }
               >
-                Home
+                <FaHome /> Home
               </NavLink>
             </li>
             <li className="hover:text-[#9F62F2] hover:border-b-2 hover:border-[#9F62F2] ">
@@ -50,7 +54,7 @@ const Navbar = () => {
                     : "border-b-2 border-transparent hover:text-[#9F62F2] hover:border-[#9F62F2] transition duration-200"
                 }
               >
-                Apps
+                <FaAppStore /> Apps
               </NavLink>
             </li>
             <li className="hover:text-[#9F62F2] hover:border-b-2 hover:border-[#9F62F2] ">
@@ -62,6 +66,7 @@ const Navbar = () => {
                     : "border-b-2 border-transparent hover:text-[#9F62F2] hover:border-[#9F62F2] transition duration-200"
                 }
               >
+                <MdInstallDesktop />
                 Installation
               </NavLink>
             </li>
@@ -87,7 +92,7 @@ const Navbar = () => {
                   : "border-b-2 border-transparent hover:text-[#9F62F2] hover:border-[#9F62F2] transition duration-200"
               }
             >
-              Home
+              <FaHome /> Home
             </NavLink>
           </li>
 
@@ -100,7 +105,7 @@ const Navbar = () => {
                   : "border-b-2 border-transparent hover:text-[#9F62F2] hover:border-[#9F62F2] transition duration-200"
               }
             >
-              Apps
+              <FaAppStore /> Apps
             </NavLink>
           </li>
 
@@ -113,6 +118,7 @@ const Navbar = () => {
                   : "border-b-2 border-transparent hover:text-[#9F62F2] hover:border-[#9F62F2] transition duration-200"
               }
             >
+              <MdInstallDesktop />
               Installation
             </NavLink>
           </li>
