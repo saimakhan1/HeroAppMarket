@@ -1,122 +1,3 @@
-// import React, { useState, useEffect } from "react";
-// import { useParams } from "react-router";
-// import downloadImg from "../../assets/icon-downloads.png";
-// import ratingImg from "../../assets/icon-ratings.png";
-// import reviewImg from "../../assets/icon-review.png";
-// import {
-//   BarChart,
-//   Bar,
-//   XAxis,
-//   YAxis,
-//   Tooltip,
-//   ResponsiveContainer,
-// } from "recharts";
-// import { ToastContainer, toast } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
-
-// const AppDetails = () => {
-//   const { id } = useParams();
-//   const [app, setApp] = useState(null);
-//   const [installed, setInstalled] = useState(false);
-
-//   // Fetch app data
-//   useEffect(() => {
-//     fetch("/appsData1.json")
-//       .then((res) => res.json())
-//       .then((data) => {
-//         const foundApp = data.find((a) => a.id === parseInt(id));
-//         setApp(foundApp);
-//       })
-//       .catch((err) => console.error(err));
-//   }, [id]);
-
-//   if (!app) return <p className="p-10 text-red-500">App not found</p>;
-
-//   // Transform ratings for chart
-//   const chartData = app.ratings
-//     .map((r) => ({ star: r.name, count: r.count }))
-//     .reverse(); // 5 stars at top
-
-//   // Handle install button
-//   const handleInstall = () => {
-//     setInstalled(true);
-//     toast.success(`${app.title} installed successfully!`);
-//   };
-
-//   return (
-//     <div className="p-8 space-y-10">
-//       {/* Toast container */}
-//       <ToastContainer position="top-right" autoClose={3000} />
-
-//       {/* 1. App Information */}
-//       <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-//         {/* App Image */}
-//         <img
-//           src={app.image}
-//           alt={app.title}
-//           className="w-48 h-48 rounded-xl object-cover"
-//         />
-
-//         {/* App Info */}
-//         <div className="flex-1 space-y-4">
-//           <h1 className="text-3xl font-bold">{app.title}</h1>
-//           <div className="flex gap-4">
-//             <div className="flex items-center gap-1">
-//               <img src={downloadImg} alt="downloads" className="h-6 w-6" />
-//               <span>{app.downloads}</span>
-//             </div>
-//             <div className="flex items-center gap-1">
-//               <img src={ratingImg} alt="rating" className="h-6 w-6" />
-//               <span>{app.ratingAvg}</span>
-//             </div>
-//             <div className="flex items-center gap-1">
-//               <img src={reviewImg} alt="reviews" className="h-6 w-6" />
-//               <span>{app.reviews.toLocaleString()}</span>
-//             </div>
-//           </div>
-
-//           <button
-//             className={`px-6 py-2 rounded-md text-white font-semibold ${
-//               installed
-//                 ? "bg-gray-400 cursor-not-allowed"
-//                 : "bg-green-500 hover:bg-green-600"
-//             }`}
-//             onClick={handleInstall}
-//             disabled={installed}
-//           >
-//             {installed ? "Installed" : "Install"}
-//           </button>
-//         </div>
-//       </div>
-
-//       {/* 2. App Review Chart */}
-//       <div className="bg-white p-6 rounded-lg shadow-lg">
-//         <h2 className="text-2xl font-bold mb-4">Reviews</h2>
-//         <ResponsiveContainer width="100%" height={250}>
-//           <BarChart
-//             layout="vertical"
-//             data={chartData}
-//             margin={{ top: 5, right: 20, left: 20, bottom: 5 }}
-//           >
-//             <XAxis type="number" />
-//             <YAxis type="category" dataKey="star" />
-//             <Tooltip />
-//             <Bar dataKey="count" fill="#4f46e5" />
-//           </BarChart>
-//         </ResponsiveContainer>
-//       </div>
-
-//       {/* 3. App Description */}
-//       <div className="bg-white p-6 rounded-lg shadow-lg">
-//         <h2 className="text-2xl font-bold mb-4">Description</h2>
-//         <p className="text-gray-700">{app.description}</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default AppDetails;
-
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import downloadImg from "../../assets/icon-downloads.png";
@@ -225,15 +106,15 @@ const AppDetails = () => {
             <XAxis type="number" />
             <YAxis type="category" dataKey="star" />
             <Tooltip />
-            <Bar dataKey="count" fill="#4f46e5" />
+            <Bar dataKey="count" fill="orange" />
           </BarChart>
         </ResponsiveContainer>
       </div>
 
       {/* Description */}
       <div className="bg-white p-6 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold mb-4">Description</h2>
-        <p className="text-gray-700">{app.description}</p>
+        <h2 className="text-2xl font-bold mb-4 text-left">Description</h2>
+        <p className="text-gray-700 text-left">{app.description}</p>
       </div>
     </div>
   );

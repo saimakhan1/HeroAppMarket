@@ -9,13 +9,11 @@ import AppDetails from "../Pages/AppDetails/AppDetails";
 export const router = createBrowserRouter([
   {
     path: "/",
-    // element: <div>Hello Book Vibe ~~ Boi Poka</div>,
     Component: Root,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,
-        // loader: () => fetch("booksData.json"),
         path: "/",
         Component: Home,
       },
@@ -26,7 +24,7 @@ export const router = createBrowserRouter([
       },
       {
         index: true,
-        loader: () => fetch("appsData1.json"),
+        loader: () => fetch("/appsData1.json"),
         path: "/apps",
         Component: Apps,
       },

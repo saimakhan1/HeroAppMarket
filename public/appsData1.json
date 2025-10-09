@@ -1,10 +1,10 @@
 [
   {
     "image": "https://i.ibb.co.com/3YcMQkNp/whatsApp.jpg",
-    "title": "WhatsApp ",
+    "title": "WhatsApp",
     "companyName": "Meta Platforms Inc.",
     "id": 1,
-    "description": "Simple, reliable messaging and calling for free, available on phones worldwide.",
+    "description": "WhatsApp is the ultimate messaging app designed to keep you connected with friends, family, and colleagues worldwide. With seamless text messaging, voice, and video calling capabilities, WhatsApp allows you to communicate effortlessly and securely. Share photos, videos, documents, and voice messages instantly, all while enjoying end-to-end encryption that guarantees your privacy and safety. Whether you're planning events, catching up with loved ones, or collaborating on projects, WhatsApp ensures your conversations are fast, reliable, and easy to manage. Create groups, broadcast messages, and stay in touch across different devices with ease. With WhatsApp Web, you can extend your messaging experience to your desktop, making multitasking simpler and more efficient. Personalized statuses, emojis, GIFs, and stickers allow you to express yourself creatively, making every interaction lively and engaging. WhatsApp’s intuitive interface makes it accessible for users of all ages, while constant updates and new features ensure a modern, user-friendly experience. Experience unparalleled connectivity, instant communication, and convenience — all for free. Download WhatsApp now and transform the way you communicate in your daily life, connecting with people effortlessly and making every conversation meaningful.",
     "size": 54,
     "reviews": 120000000,
     "ratingAvg": 4.3,
@@ -22,7 +22,7 @@
     "title": "Facebook",
     "companyName": "Meta Platforms Inc.",
     "id": 2,
-    "description": "Connect with friends, family, and communities that matter to you.",
+    "description": "Facebook is the world’s leading social networking platform, helping you connect with friends, family, and communities that matter to you. Share updates, photos, videos, and experiences with your network, while staying informed about the latest trends, news, and events. Join groups, follow pages, and discover content tailored to your interests, hobbies, and professional growth. Facebook’s innovative tools allow you to host events, engage in lively discussions, and build meaningful relationships. With Messenger integration, you can seamlessly chat with friends, video call, or share media instantly. Privacy controls let you manage who sees your posts and personal information, ensuring a safe online experience. Advanced AI technology personalizes your feed to highlight relevant stories, videos, and updates, making every visit engaging and interactive. Whether you’re promoting a business, networking professionally, or staying in touch with loved ones, Facebook offers endless possibilities to share, communicate, and explore. Experience the power of global connectivity, creative expression, and meaningful interactions, all within a single platform designed to keep your social life vibrant, connected, and engaging.",
     "size": 68,
     "reviews": 115000000,
     "ratingAvg": 4.1,
@@ -40,7 +40,7 @@
     "title": "Instagram",
     "companyName": "Meta Platforms Inc.",
     "id": 3,
-    "description": "Capture and share moments with your friends and followers instantly.",
+    "description": "Instagram is the ultimate platform for capturing, sharing, and exploring visual content. Whether it’s photos, videos, stories, or reels, Instagram lets you express yourself creatively and connect with millions of people worldwide. Follow your favorite creators, brands, and influencers to stay updated with trends, fashion, lifestyle, and entertainment. The app’s innovative camera tools, filters, and editing features empower you to create professional-quality content with ease. Explore content tailored to your interests through the Explore page, discover trending hashtags, and engage with communities that inspire you. Instagram Stories and Reels allow you to share your daily moments, short videos, or tutorials instantly, while messaging features make collaboration and conversation effortless. With shopping and business tools integrated into the platform, Instagram also serves as a powerful marketplace, enabling brands and creators to reach their audience effectively. Enjoy seamless, fast, and interactive experiences that keep you connected and engaged. From personal expression to professional growth, Instagram offers an inspiring and dynamic space for everyone to share, explore, and thrive creatively every day.",
     "size": 40,
     "reviews": 110000000,
     "ratingAvg": 4.5,
@@ -58,7 +58,7 @@
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 4,
-    "description": "Enjoy videos, music, and more with the world’s largest video-sharing platform.",
+    "description": "YouTube is the world’s largest video-sharing platform, offering endless entertainment, learning, and inspiration. Discover millions of videos, from music, movies, and vlogs to tutorials, reviews, and educational content. Subscribe to channels, receive personalized recommendations, and interact through likes, comments, and shares. YouTube’s powerful search and algorithm help you find content tailored to your interests, making every viewing experience unique. Whether you’re a content creator or a viewer, the platform provides tools to upload, edit, and monetize videos, while building a dedicated community. Live streaming enables real-time engagement with audiences worldwide, and premium features provide an ad-free, high-quality experience. YouTube empowers learning with tutorials and courses, keeps you informed with news channels, and entertains with music, comedy, and shows. With mobile-friendly accessibility, offline downloads, and personalized notifications, YouTube ensures you never miss your favorite content. Experience endless discovery, creativity, and engagement, all in one platform that connects billions of users, sparking imagination, knowledge, and entertainment every day.",
     "size": 95,
     "reviews": 142000000,
     "ratingAvg": 4.6,
@@ -72,11 +72,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/FkQZDGMB/tiktok.jpg",
+    "image": "https://i.ibb.co/FkQZDGMB/tiktok.jpg",
     "title": "TikTok",
     "companyName": "ByteDance",
     "id": 5,
-    "description": "Discover and create short videos with music, filters, and creative tools.",
+    "description": "TikTok is the leading platform for short-form mobile videos, designed to unleash creativity and entertain millions worldwide. Express yourself through unique video content using music, effects, filters, and editing tools to produce captivating stories. Engage with a global audience, discover trending challenges, and explore personalized feeds tailored to your preferences. TikTok’s smart algorithm makes it easy to find viral content, learn new skills, or simply enjoy endless entertainment. Connect with communities of like-minded creators, participate in contests, and collaborate on exciting projects. From comedy sketches to dance routines, DIY tutorials, and lifestyle content, TikTok offers limitless inspiration. Its intuitive interface, quick video-sharing features, and constant updates ensure users enjoy a fresh and engaging experience daily. Whether you’re a creator or a viewer, TikTok is more than an app—it’s a community where imagination meets opportunity. Elevate your creative potential, connect with others globally, and discover endless entertainment at your fingertips, anytime, anywhere.",
     "size": 78,
     "reviews": 92000000,
     "ratingAvg": 4.4,
@@ -90,11 +90,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/pr6kcRjf/gmail.jpg",
+    "image": "https://i.ibb.co/pr6kcRjf/gmail.jpg",
     "title": "Gmail",
     "companyName": "Google LLC",
     "id": 6,
-    "description": "Secure, smart, and easy-to-use email service by Google.",
+    "description": "Gmail is Google’s secure and user-friendly email service, helping you manage your communication efficiently. With intelligent features like smart replies, labels, categories, and powerful search, Gmail makes organizing and finding emails effortless. Its intuitive interface ensures smooth navigation, while powerful spam filters keep your inbox clean and safe. Access Gmail on any device, ensuring your messages are always at your fingertips, whether you’re at home, work, or on the go. Integration with Google Workspace allows seamless collaboration on documents, spreadsheets, and calendars. Gmail’s high-level security, including two-step verification, encryption, and phishing protection, safeguards your information from threats. With ample storage and effortless account management, Gmail accommodates both personal and professional needs. Stay connected, collaborate with colleagues, and communicate effectively with Gmail’s smart tools designed to simplify your daily workflow. Experience reliable email communication that is fast, secure, and fully integrated with Google’s ecosystem, ensuring productivity and peace of mind.",
     "size": 35,
     "reviews": 94000000,
     "ratingAvg": 4.5,
@@ -108,11 +108,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/LX9D1T3H/googlemap.jpg",
+    "image": "https://i.ibb.co/LX9D1T3H/googlemap.jpg",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 7,
-    "description": "Navigate the world faster and easier with accurate maps and live traffic updates.",
+    "description": "Google Maps is your ultimate navigation and discovery tool, designed to help you explore the world with confidence and ease. Whether you’re driving, walking, biking, or using public transport, Google Maps provides real-time directions, live traffic updates, and accurate ETAs to make your journeys faster and stress-free. Discover new places, restaurants, landmarks, and attractions with rich reviews, photos, and ratings from millions of users worldwide. Save your favorite locations, create custom maps, and share routes with friends and family for enhanced collaboration. Street View and satellite imagery allow immersive exploration of cities and neighborhoods, while indoor maps guide you through airports, malls, and other complex venues. Google Maps integrates seamlessly with ride-sharing and local services, making planning and commuting effortless. Whether you’re a traveler seeking new experiences or a local navigating daily life, Google Maps ensures reliability, convenience, and insight at every step. Explore, discover, and navigate smarter with Google Maps, your essential companion for connecting with the world around you and making every journey safe, efficient, and enjoyable.",
     "size": 60,
     "reviews": 98000000,
     "ratingAvg": 4.7,
@@ -126,11 +126,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/ccJh5GMt/snapchat.jpg",
+    "image": "https://i.ibb.co/ccJh5GMt/snapchat.jpg",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 8,
-    "description": "Share moments instantly with friends using fun filters and chat features.",
+    "description": "Snapchat is a fun and interactive social platform that allows you to share moments instantly through snaps, stories, and chats. Express yourself creatively with lenses, filters, stickers, and Bitmojis, bringing your photos and videos to life in imaginative ways. Stay connected with friends, family, and communities through real-time messaging, live video, and interactive experiences. Discover content from creators, celebrities, and brands, while following trending topics and stories that interest you. Snapchat’s ephemeral messaging ensures privacy, encouraging spontaneous sharing and authentic connections. Explore the Spotlight section to watch trending short videos, engage with interactive games, and discover engaging AR experiences that entertain and educate. Whether capturing everyday life, documenting adventures, or connecting socially, Snapchat offers a dynamic platform for creativity, self-expression, and meaningful communication. With intuitive design, privacy features, and constant innovation, Snapchat provides an immersive, exciting, and fun way to connect, share, and explore the world around you.",
     "size": 52,
     "reviews": 64000000,
     "ratingAvg": 4.2,
@@ -144,11 +144,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/T5vqG2J/twitter.jpg",
+    "image": "https://i.ibb.co/T5vqG2J/twitter.jpg",
     "title": "X (Twitter)",
     "companyName": "X Corp.",
     "id": 9,
-    "description": "Join conversations, share thoughts, and stay informed with trending news.",
+    "description": "X (formerly Twitter) is a fast-paced social media platform that lets you stay informed, share ideas, and engage with global communities in real time. Follow topics, trends, and influencers to get the latest news, sports updates, tech insights, and entertainment. Post your thoughts, reply, retweet, and like content to participate in conversations with millions of users worldwide. X offers a dynamic feed with algorithm-driven suggestions tailored to your interests, while curated lists and notifications keep you updated on important accounts. With Spaces and communities, engage in live audio conversations or join discussion forums on topics that matter to you. X provides businesses, creators, and individuals with tools to amplify their voice, build networks, and grow influence effectively. From breaking news to viral moments and thought leadership, X empowers users to connect, express, and influence the world. Experience fast, interactive, and real-time communication through a platform designed for engagement, discovery, and expression, wherever you are.",
     "size": 42,
     "reviews": 88000000,
     "ratingAvg": 4.0,
@@ -162,15 +162,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/wG4d4P6/spotify.jpg",
+    "image": "https://i.ibb.co/wG4d4P6/spotify.jpg",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 10,
-    "description": "Stream music and podcasts from artists all over the world.",
+    "description": "Spotify is the leading music streaming platform offering access to millions of songs, albums, and podcasts worldwide. Discover new artists, create playlists, and enjoy personalized recommendations based on your tastes and listening habits. Whether you’re into pop, rock, classical, or podcasts, Spotify delivers high-quality audio streaming that suits every mood and activity. Collaborative playlists, social sharing, and curated playlists make discovering music interactive and fun. Premium features provide offline listening, ad-free experience, and enhanced sound quality for uninterrupted enjoyment. Spotify also supports podcasts covering education, entertainment, news, and lifestyle, allowing you to stay informed and inspired. With cross-platform accessibility on mobile, desktop, and smart devices, Spotify ensures your music and podcasts are always within reach. Elevate your listening experience, explore diverse genres, and stay inspired with Spotify, the ultimate platform to connect with music and audio content anytime, anywhere.",
     "size": 66,
     "reviews": 92000000,
     "ratingAvg": 4.6,
-    "downloads": 1000000000,
+    "downloads": "3M",
     "ratings": [
       { "name": "1 star", "count": 2000000 },
       { "name": "2 star", "count": 1000000 },
@@ -180,15 +180,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/8QcPV05/netflix.jpg",
+    "image": "https://i.ibb.co/8QcPV05/netflix.jpg",
     "title": "Netflix",
     "companyName": "Netflix Inc.",
     "id": 11,
-    "description": "Watch your favorite movies, shows, and documentaries anywhere, anytime.",
+    "description": "Netflix is a premium streaming service offering a vast collection of movies, TV shows, documentaries, and original productions across genres. Enjoy personalized recommendations powered by AI, allowing you to discover new content tailored to your tastes. Watch instantly on any device, download offline content, and enjoy high-definition streaming with minimal interruptions. Netflix Originals provide exclusive entertainment experiences, ranging from thrilling dramas and comedies to inspiring documentaries and animated features. Multiple profiles, parental controls, and accessibility features ensure a customized viewing experience for every family member. Netflix also integrates global content, exposing users to international stories, cultures, and perspectives. Whether binge-watching popular series, catching up on movies, or exploring new shows, Netflix delivers high-quality entertainment anytime, anywhere. With continuous updates, fresh releases, and innovative features, Netflix ensures your entertainment journey is engaging, seamless, and tailored to your lifestyle. Transform the way you enjoy entertainment with a platform designed for convenience, variety, and discovery.",
     "size": 120,
     "reviews": 98000000,
     "ratingAvg": 4.5,
-    "downloads": 1000000000,
+    "downloads": "4M",
     "ratings": [
       { "name": "1 star", "count": 4000000 },
       { "name": "2 star", "count": 1500000 },
@@ -198,15 +198,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/3y6GDBM7/linkedin.jpg",
+    "image": "https://i.ibb.co/3y6GDBM7/linkedin.jpg",
     "title": "LinkedIn",
     "companyName": "Microsoft Corporation",
     "id": 12,
-    "description": "Build your professional network and explore career opportunities worldwide.",
+    "description": "LinkedIn is the world’s largest professional networking platform, designed to connect professionals, businesses, and job seekers. Build a strong professional profile, showcase skills, and highlight achievements to attract opportunities and expand your network. Connect with colleagues, industry leaders, and potential clients to grow your career and business. LinkedIn provides access to job postings, professional groups, thought leadership content, and online learning tools to help you stay informed and advance professionally. Engage with content, share insights, and participate in discussions to strengthen your presence and credibility in your field. For companies, LinkedIn is an essential platform for recruitment, marketing, and talent management, allowing precise targeting and meaningful engagement. With messaging, notifications, and analytics tools, LinkedIn ensures effective networking and career growth. Discover trends, opportunities, and connections globally, and enhance your professional journey through a platform built for collaboration, development, and success.",
     "size": 45,
     "reviews": 34000000,
     "ratingAvg": 4.3,
-    "downloads": 1000000000,
+    "downloads": "8M",
     "ratings": [
       { "name": "1 star", "count": 2000000 },
       { "name": "2 star", "count": 1000000 },
@@ -216,15 +216,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/JWQJ9y5r/telegram.jpg",
+    "image": "https://i.ibb.co/JWQJ9y5r/telegram.jpg",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 13,
-    "description": "Fast and secure messaging app with privacy-focused design and large group chats.",
+    "description": "Telegram is a secure, fast, and feature-rich messaging platform designed to keep you connected effortlessly. With end-to-end encryption, cloud-based messaging, and multi-device support, Telegram ensures your chats are private, synchronized, and accessible anytime, anywhere. Share photos, videos, files, and voice messages quickly, or create group chats and channels for communities, business teams, or hobbyists. Telegram’s intuitive interface and advanced bots allow customization, automation, and seamless workflow management. With powerful search, pinned messages, and message scheduling, managing conversations is convenient and organized. The platform supports large groups, interactive polls, and media-rich messages, making it ideal for social engagement, business communication, or personal use. Telegram prioritizes security, privacy, and speed without compromising usability, making it a leading choice for messaging enthusiasts worldwide. Experience instant connectivity, creative sharing, and global interaction with a platform designed to empower communication and enhance productivity effortlessly.",
     "size": 30,
     "reviews": 48000000,
     "ratingAvg": 4.7,
-    "downloads": 1000000000,
+    "downloads": "9M",
     "ratings": [
       { "name": "1 star", "count": 1000000 },
       { "name": "2 star", "count": 500000 },
@@ -234,15 +234,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/5XPGCHr1/zoom.jpg",
+    "image": "https://i.ibb.co/5XPGCHr1/zoom.jpg",
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 14,
-    "description": "Reliable video meetings, messaging, and collaboration for all your needs.",
+    "description": "Zoom is a leading video conferencing and collaboration platform designed to connect people globally. Host online meetings, webinars, and virtual events effortlessly, with crystal-clear video, high-quality audio, and screen sharing capabilities. Zoom’s intuitive interface and robust security features make it suitable for businesses, educators, and individuals alike. Schedule meetings, record sessions, and collaborate in real-time using chat, reactions, and breakout rooms. Integrate with calendars, apps, and productivity tools to streamline workflows and enhance efficiency. Zoom’s mobile and desktop accessibility ensures seamless communication from anywhere, while enterprise-grade encryption protects sensitive data. With interactive tools, virtual backgrounds, and live streaming capabilities, Zoom transforms remote collaboration into a productive, engaging, and professional experience. Whether for business, education, or personal use, Zoom provides reliable connectivity, enabling teams and communities to collaborate, learn, and communicate effectively across the globe, enhancing productivity and engagement in a connected world.",
     "size": 85,
     "reviews": 62000000,
     "ratingAvg": 4.3,
-    "downloads": 1000000000,
+    "downloads": "12M",
     "ratings": [
       { "name": "1 star", "count": 3000000 },
       { "name": "2 star", "count": 1500000 },
@@ -252,15 +252,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/Z6YNtLyZ/pinterest.jpg",
+    "image": "https://i.ibb.co/Z6YNtLyZ/pinterest.jpg",
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "id": 15,
-    "description": "Find new ideas for recipes, fashion, home décor, and more.",
+    "description": "Pinterest is a visual discovery platform that helps you find and save ideas for any project or interest. Explore a vast collection of pins covering fashion, recipes, home décor, travel, and more. Create boards to organize inspirations, plan events, or gather creative ideas for personal or professional use. Pinterest’s smart recommendations and search functionality allow you to discover trends, tutorials, and DIY guides tailored to your tastes. Follow creators, brands, and communities to stay inspired and engaged. Pinterest also supports shopping integration, enabling you to explore products and make purchases directly within the platform. With a focus on creativity, inspiration, and personalization, Pinterest empowers users to plan, organize, and achieve goals visually. Whether seeking design ideas, lifestyle tips, or professional inspiration, Pinterest offers an immersive, interactive, and enjoyable experience for anyone looking to transform ideas into reality.",
     "size": 55,
     "reviews": 32000000,
     "ratingAvg": 4.6,
-    "downloads": 1000000000,
+    "downloads": "13M",
     "ratings": [
       { "name": "1 star", "count": 1000000 },
       { "name": "2 star", "count": 800000 },
@@ -270,15 +270,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/MxBnqK4R/discord.jpg",
+    "image": "https://i.ibb.co/MxBnqK4R/discord.jpg",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 16,
-    "description": "Join communities, chat, and voice call with your friends and gaming groups.",
+    "description": "Discord is a versatile communication platform that brings communities together through voice, video, and text channels. Ideal for gamers, hobbyists, businesses, and interest-based groups, Discord enables real-time collaboration, content sharing, and interaction. Create servers with organized channels, roles, and permissions to facilitate structured conversations. Engage with rich media, streaming, and file sharing for immersive experiences. Discord’s mobile and desktop apps ensure connectivity anywhere, while bots and integrations provide automation, moderation, and entertainment features. Whether connecting with friends, hosting live events, or managing communities, Discord offers a secure, fast, and customizable environment for collaboration and engagement. Its focus on user-friendly design, reliable performance, and vibrant community support makes it the platform of choice for building meaningful connections and fostering engagement globally. Experience a space where communities thrive, communication flows effortlessly, and shared interests unite people seamlessly.",
     "size": 85,
     "reviews": 25000000,
     "ratingAvg": 4.5,
-    "downloads": 500000000,
+    "downloads": "4K",
     "ratings": [
       { "name": "1 star", "count": 800000 },
       { "name": "2 star", "count": 500000 },
