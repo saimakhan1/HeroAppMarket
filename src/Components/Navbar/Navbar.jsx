@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub } from "react-icons/fa6";
 
 import logoImage from "../../assets/logo.png";
@@ -30,20 +29,51 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li className="hover:text-[#9F62F2] hover:border-b-2 hover:border-[#9F62F2] ">
-              <a> Home</a>
+              <NavLink
+                to="/"
+                end
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#9F62F2] border-b-2 border-[#9F62F2] transition duration-200"
+                    : "border-b-2 border-transparent hover:text-[#9F62F2] hover:border-[#9F62F2] transition duration-200"
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li className="hover:text-[#9F62F2] hover:border-b-2 hover:border-[#9F62F2] ">
-              <a>Apps</a>
+              <NavLink
+                to="/apps"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#9F62F2] border-b-2 border-[#9F62F2] transition duration-200"
+                    : "border-b-2 border-transparent hover:text-[#9F62F2] hover:border-[#9F62F2] transition duration-200"
+                }
+              >
+                Apps
+              </NavLink>
             </li>
             <li className="hover:text-[#9F62F2] hover:border-b-2 hover:border-[#9F62F2] ">
-              <a> Installation</a>
+              <NavLink
+                to="/installation"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#9F62F2] border-b-2 border-[#9F62F2] transition duration-200"
+                    : "border-b-2 border-transparent hover:text-[#9F62F2] hover:border-[#9F62F2] transition duration-200"
+                }
+              >
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl text-[#9F62F2]">
-          {" "}
-          <img src={logoImage} alt="Hero.IO logo" className="w-6 h-6" /> Hero.IO
-        </a>
+        <Link to={"/"}>
+          <a className="btn btn-ghost text-xl text-[#9F62F2]">
+            {" "}
+            <img src={logoImage} alt="Hero.IO logo" className="w-6 h-6" />{" "}
+            Hero.IO
+          </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-6">
