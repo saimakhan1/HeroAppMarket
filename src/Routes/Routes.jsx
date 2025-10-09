@@ -15,11 +15,13 @@ export const router = createBrowserRouter([
       {
         index: true,
         path: "/",
+        loader: async () => null, // triggers loading
         Component: Home,
       },
       {
         index: true,
         path: "/installation",
+        loader: async () => null, // triggers loading
         Component: Installation,
       },
       {

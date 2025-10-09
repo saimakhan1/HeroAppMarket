@@ -8,6 +8,19 @@ const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
   const [sortOrder, setSortOrder] = useState("");
 
+  const [loading, setLoading] = useState(true);
+
+  // Load installed apps from localStorage and simulate loading
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const storedApps =
+        JSON.parse(localStorage.getItem("installedApps")) || [];
+      setInstalledApps(storedApps);
+      setLoading(false);
+    }, 500); // 500ms simulated loading
+    return () => clearTimeout(timer);
+  }, []);
+
   // Helper: convert "6M" / "4.5K" / "50K" → number
   const convertDownloadsToNumber = (value) => {
     if (!value) return 0;
@@ -49,6 +62,14 @@ const Installation = () => {
     setInstalledApps(sorted);
   };
 
+  if (loading) {
+    return (
+      <div className="flex justify-center ">
+        <span className="loading loading-spinner text-secondary"></span>
+        Loading{" "}
+      </div>
+    );
+  }
   return (
     <div className="py-14 px-7 space-y-10">
       <ToastContainer position="top-right" autoClose={3000} />

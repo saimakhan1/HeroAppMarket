@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router";
 import gPlay from "../../assets/gplay.jpg";
 import sPlay from "../../assets/appstorelogo.jpg";
 import Banner from "../../Components/Banner/Banner";
 
 const Home = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time (e.g., fetching data)
+    const timer = setTimeout(() => setLoading(false), 500);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center ">
+        <span className="loading loading-spinner text-secondary"></span>
+        Loading{" "}
+      </div>
+    );
+  }
+
   return (
     <div className="c2 py-3">
       <div className="mx-auto my-5 ">
