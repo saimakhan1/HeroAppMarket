@@ -18,7 +18,7 @@ import appError from "../../assets/App-Error.png";
 
 const AppNotFound = () => {
   return (
-    <div className="text-center mx-auto">
+    <div className="text-center mx-auto my-10">
       <h1 className="text-3xl font-bold mb-4">App Not Found</h1>
       <img src={appError} alt="appNotFound" className="mx-auto block" />
     </div>
