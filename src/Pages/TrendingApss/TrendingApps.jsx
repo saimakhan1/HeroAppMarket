@@ -26,7 +26,7 @@ const TrendingApps = () => {
       {/* button div */}
       <Link to={"/apps"}>
         <div className="mt-6 flex justify-center items-center">
-          <button className="px-12 w-[300px] mx-auto btn btn-primary bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+          <button className="px-12 w-[280px] mx-auto btn btn-primary bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
             Show All
           </button>
         </div>

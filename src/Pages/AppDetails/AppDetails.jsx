@@ -21,6 +21,13 @@ const AppDetails = () => {
   const [installed, setInstalled] = useState(false);
   const [loading, setLoading] = useState(true);
 
+  const formatNumber = (num) => {
+    if (num >= 1_000_000)
+      return (num / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M";
+    if (num >= 1_000) return (num / 1_000).toFixed(1).replace(/\.0$/, "") + "K";
+    return num.toString();
+  };
+
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 500);
     return () => clearTimeout(timer);
@@ -68,7 +75,7 @@ const AppDetails = () => {
   };
 
   return (
-    <div className="p-4 sm:p-6 md:p-8 space-y-8 max-w-7xl mx-auto">
+    <div className="p-4 sm:p-6 md:p-8 space-y-8 max-w-7xl mx-auto bg-gray-50">
       <ToastContainer position="top-right" autoClose={3000} />
 
       {/* App Info */}
@@ -83,33 +90,41 @@ const AppDetails = () => {
             {app.title}
           </h1>
           <h2>
-            <span className="text-gray-600">Developed by:</span>{" "}
-            <span className="text-purple-700">{app.companyName}</span>{" "}
+            <span className="text-gray-600 ">Developed by:</span>{" "}
+            <span className="text-purple-700 font-bold">{app.companyName}</span>{" "}
           </h2>
-          <div className="flex flex-wrap justify-center md:justify-start gap-4">
-            <div className="flex items-center gap-1">
+          <hr className="border-gray-300" />
+          <div className="flex flex-wrap justify-center md:justify-start gap-6">
+            <div className=" items-center gap-1">
               <img
                 src={downloadImg}
                 alt="downloads"
                 className="h-5 w-5 sm:h-6 sm:w-6"
               />
-              <span>{app.downloads.toLocaleString()}</span>
+              <h2 className="text-gray-500">Downloads</h2>
+              <span className="text-2xl font-bold">
+                {app.downloads.toLocaleString()}
+              </span>
             </div>
-            <div className="flex items-center gap-1">
+            <div className=" items-center gap-1">
               <img
                 src={ratingImg}
                 alt="rating"
                 className="h-5 w-5 sm:h-6 sm:w-6"
               />
-              <span>{app.ratingAvg}</span>
+              <h2 className="text-gray-500">Average Ratings</h2>
+              <span className="text-2xl font-bold">{app.ratingAvg}</span>
             </div>
-            <div className="flex items-center gap-1">
+            <div className=" items-center gap-1">
               <img
                 src={reviewImg}
                 alt="reviews"
                 className="h-5 w-5 sm:h-6 sm:w-6"
               />
-              <span>{app.reviews.toLocaleString()}</span>
+              <h2 className="text-gray-500">Total Reviews</h2>
+              <span className="text-2xl font-bold">
+                {formatNumber(app.reviews)}
+              </span>
             </div>
           </div>
           <button
@@ -125,10 +140,11 @@ const AppDetails = () => {
           </button>
         </div>
       </div>
+      <hr className="border-gray-300" />
 
       {/* Review Chart */}
-      <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-lg w-full">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
+      <div className=" p-4 sm:p-6 md:p-8 rounded-lg shadow-lg w-full">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-left">
           Ratings
         </h2>
         <ResponsiveContainer width="100%" height={250}>
@@ -144,9 +160,9 @@ const AppDetails = () => {
           </BarChart>
         </ResponsiveContainer>
       </div>
-
+      <hr className="border-gray-300" />
       {/* Description */}
-      <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-lg w-full">
+      <div className=" p-4 sm:p-6 md:p-8 rounded-lg shadow-lg w-full">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-left">
           Description
         </h2>

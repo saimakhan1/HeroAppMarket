@@ -1,5 +1,4 @@
 import { FaGithub } from "react-icons/fa6";
-
 import logoImage from "../../assets/logo.png";
 import { Link, NavLink } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
