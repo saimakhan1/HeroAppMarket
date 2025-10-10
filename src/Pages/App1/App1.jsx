@@ -3,9 +3,9 @@ import downloadImg from "../../assets/icon-downloads.png";
 import ratingImg from "../../assets/icon-ratings.png";
 import { Link } from "react-router";
 
-const App1 = ({ app, installed, onInstall }) => {
+const App1 = ({ app }) => {
   return (
-    <div className="card1 w-[270px] h-[300px] text-center bg-blue-100 m-3 p-3 rounded-lg shadow-lg">
+    <div className="card1 w-[270px] h-[300px] text-center bg-white m-3 p-3 rounded-lg shadow-lg">
       <Link to={`/appDetails/${app.id}`}>
         <div className="cardImage1 mb-3">
           <img
@@ -26,17 +26,6 @@ const App1 = ({ app, installed, onInstall }) => {
           {app.ratingAvg}
         </button>
       </div>
-      {/* <button
-        onClick={onInstall}
-        disabled={installed}
-        className={`w-full px-4 py-2 rounded-md font-semibold text-white ${
-          installed
-            ? "bg-gray-400 cursor-not-allowed"
-            : "bg-green-500 hover:bg-green-600"
-        }`}
-      >
-        {installed ? "Installed" : "Install"}
-      </button> */}
     </div>
   );
 };

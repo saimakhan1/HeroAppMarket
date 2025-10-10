@@ -143,7 +143,7 @@ const AppDetails = () => {
       <hr className="border-gray-300" />
 
       {/* Review Chart */}
-      <div className=" p-4 sm:p-6 md:p-8 rounded-lg shadow-lg w-full">
+      <div className=" p-4 sm:p-6 md:p-8  w-full">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-left">
           Ratings
         </h2>
@@ -162,7 +162,7 @@ const AppDetails = () => {
       </div>
       <hr className="border-gray-300" />
       {/* Description */}
-      <div className=" p-4 sm:p-6 md:p-8 rounded-lg shadow-lg w-full">
+      <div className=" p-4 sm:p-6 md:p-8  w-full">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-left">
           Description
         </h2>
