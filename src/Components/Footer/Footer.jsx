@@ -6,7 +6,7 @@ import logoImg from "../../assets/logo.png";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white py-14 px-6 sm:px-20">
+    <div className="bg-black text-white py-10 px-6 sm:px-20">
       <div className="top flex justify-between">
         <div className="left flex">
           <img src={logoImg} className="w-[20px] h-[20px]" alt="" />
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bottom py-10">
+      <div className="bottom pt-10">
         <h1>Copyright © 2025 - All Rights Reserved</h1>
       </div>
     </div>
